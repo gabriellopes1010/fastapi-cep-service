@@ -16,10 +16,10 @@ class ViaCEPBase(BaseModel):
     uf: Optional[str] = Field(default=None)
     state: Optional[str] = Field(default=None)
     region: Optional[str] = Field(default=None)
-    ibge: Optional[int] = Field(default=None)
-    gia: Optional[int] = Field(default=None)
-    ddd: Optional[int] = Field(default=None)
-    siafi: Optional[int] = Field(default=None)
+    ibge: Optional[str] = Field(default=None)
+    gia: Optional[str] = Field(default=None)
+    ddd: Optional[str] = Field(default=None)
+    siafi: Optional[str] = Field(default=None)
 
 
 
